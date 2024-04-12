@@ -5,18 +5,18 @@ import App from './App';
 import i18next from 'i18next'
 import { I18nextProvider } from "react-i18next";
 
-import English from "./Translations/en/global.json"
-import Georgian from "./Translations/ka/global.json"
+import global_en from "./Translations/en/global.json"
+import global_ka from "./Translations/ka/global.json"
 
 i18next.init({
   interpolation: { escapeValue: false },
   lng: "en",
   resources: {
     en: {
-      global: English,
+      global: global_en,
     },
     ka: {
-      global: Georgian,
+      global: global_ka,
     },
   }
 })

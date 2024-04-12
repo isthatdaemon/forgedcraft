@@ -1,8 +1,8 @@
 {
     "header": {
-        "home": "Home",
-        "servers": "Servers",
-        "contact": "Contact",
-        "about": "About Us"
+        "home": "მთავარი",
+        "servers": "სერვერები",
+        "contact": "კონტაქტი",
+        "about": "ჩვენს შესახებ"
     }
 }
