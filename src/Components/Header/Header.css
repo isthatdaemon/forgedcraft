@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 140px;
+
+    .navBar {
+        display: flex;
+        gap: 120px;
+
+        a {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            color: #FFF;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: 0.2s ease-in-out;
+        }
+
+        a.active {
+            color: #BD1831;
+          }          
+
+        a:hover {
+            color: #BD1831;
+        }
+    }
+}
